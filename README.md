@@ -1,5 +1,10 @@
 # docker-ms-sql-server-with-initializer
 
+- Microsoft SQL Server with Docker Compose
+- Initializer will setup default DB & Table automatically
+
+## Setup
+
 You need to install `Docker` & `Docker compose` first.
 
 After finishing instlation, then:
