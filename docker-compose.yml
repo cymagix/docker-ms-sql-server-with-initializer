@@ -1,0 +1,12 @@
+version: '3'
+services:
+  sqlserver:
+    platform: linux/x86_64
+    build: ./sqlserver/
+    ports:
+        - '1433:1433'
+    environment:
+        - ACCEPT_EULA=Y
+        - SA_PASSWORD=PA2W0RDxxx
+    volumes:
+        - ./sqlserver/initdb.d:/docker-entrypoint-initdb.d
