@@ -25,5 +25,5 @@ docker-compose exec sqlserver bash
 And inside of instance, you can execute some SQL command for testing:
 
 ```bash
-opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P PA2W0RDxxx -Q "SELECT name FROM sys.databases;"
+/opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P PA2W0RDxxx -Q "SELECT name FROM sys.databases;"
 ```
